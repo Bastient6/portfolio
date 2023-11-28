@@ -23,7 +23,7 @@ public partial class SendEmail : System.Web.UI.Page
             // Configuration pour le serveur SMTP de Gmail
             string smtpServer = "smtp.gmail.com";
             int smtpPort = 587;
-            string smtpUsername = "tbastien6email@gmail.com"; // Remplacez par votre adresse Gmail
+            string smtpUsername = "tbastien6@gmail.com"; // Remplacez par votre adresse Gmail
             string smtpPassword = "hpuq pljn sysp tauv";
 
             using (SmtpClient client = new SmtpClient(smtpServer, smtpPort))
