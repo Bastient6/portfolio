@@ -39,7 +39,7 @@ export default function Portfolio() {
       >
         <h2 className="text-3xl font-semibold mb-4">À propos de moi</h2>
         <p className="text-gray-700 leading-relaxed text-lg">
-          Passionné par la tech, l'automatisation et le code propre, je me forme à Epitech Montpellier où je développe des solutions web et logicielles en Python, JavaScript, C et plus. Volontaire au SDIS 34, je combine rigueur, adaptabilité et esprit d'équipe au quotidien.
+          Passionné par la tech,le developpement et l'automatisation, je me forme à Epitech Montpellier où je développe des solutions web et logicielles en Python, JavaScript, C et plus. Volontaire au SDIS 34, je combine rigueur, adaptabilité et esprit d'équipe au quotidien.
         </p>
       </motion.section>
 
@@ -55,13 +55,23 @@ export default function Portfolio() {
           {[
             {
               title: "Gestionnaire de tâches",
-              desc: "App React + Node.js avec MongoDB pour organiser ses tâches avec authentification.",
-              link: "#"
+              desc: "Node.js avec MongoDB pour organiser ses tâches avec authentification.",
+              link: "https://github.com/Bastient6/epitodo"
             },
             {
-              title: "Portfolio personnel",
-              desc: "Ce site même : React, Tailwind, animations Framer Motion + déploiement Vercel.",
-              link: "#"
+              title: "RPG",
+              desc: "RPG en CSFML — projet d'initiation à la CSFML",
+              link: "https://github.com/Bastient6/rpg"
+            },
+            {
+                title: "42Sh",
+                desc: "Projet mythique d'Epitech reproduire un terminal de code en C",
+                link: "https://github.com/Bastient6/42sh"
+            },
+            {
+                title: "ZAPPY",
+                desc: "Projet de fin de deuxième année réalisé à Epitech, intégrant un serveur en C, une intelligence artificielle développée en Python, ainsi qu'une interface graphique en C++.",
+                link: "https://github.com/Bastient6/zappy"
             }
           ].map((proj, i) => (
             <motion.div
