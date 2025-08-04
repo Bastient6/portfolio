@@ -39,8 +39,7 @@ export default function Portfolio() {
       >
         <h2 className="text-3xl font-semibold mb-4">À propos de moi</h2>
         <p className="text-gray-700 leading-relaxed text-lg">
-          Passionné par la tech,le developpement et l'automatisation, je me forme à Epitech Montpellier où je développe des solutions web et logicielles en Python, JavaScript, C et plus. Volontaire au SDIS 34, je combine rigueur, adaptabilité et esprit d'équipe au quotidien.
-        </p>
+        Étudiant en MSc Pro à EPITECH Montpellier, passionné par le développement logiciel et les technologies innovantes, Je recherche une alternance en développement, que ce soit dans le web, le logiciel, le mobile ou tout autre domaine technique, à partir de septembre 2025.        </p>
       </motion.section>
 
       {/* Projects Section */}
