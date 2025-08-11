@@ -110,7 +110,7 @@ export default function Portfolio() {
           </a>
         </div>
         <a
-          href="/portfolio/Bastien_Tiffy_CV.pdf"
+          href="https://raw.githubusercontent.com/Bastient6/portfolio/main/public/Bastien_Tiffy_CV.pdf"
           download
           className="inline-flex items-center gap-2 bg-indigo-600 text-white px-5 py-2 rounded-full hover:bg-indigo-700"
         >
